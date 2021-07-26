@@ -6,5 +6,5 @@ app_name = 'rango'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('about/', about.index2, name='index2'),
+    path('', about.index2, name='index2'),
 ]
